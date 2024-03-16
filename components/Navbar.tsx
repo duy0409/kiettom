@@ -7,10 +7,10 @@ import picture3 from "../public/picture3.jpg";
 import picture4 from "../public/picture4.jpg";
 import picture5 from "../public/picture5.jpg";
 import picture6 from "../public/picture6.jpg";
-import './Page1'
+import './Page1';
 export default function Navbar() {
   return (
-    <div>
+    <div className="bg-black">
       <div className="flex justify-center items-center h-full w-full">
         <div className="relative">
           <Image
@@ -40,7 +40,7 @@ export default function Navbar() {
         />
       </div>
       <div>
-        <article className="text-wrap overflow-hidden ... text-center text-gray-400 py-6 font-sans font:family-popins text-xl ">
+        <article className="text-wrap overflow-hidden ... text-center text-gray-400 py-6 font-sans font:family-popins text-lg	font-size: 1.125rem ">
           <p>
             Cho ra mắt cửa hàng đầu tiên vào năm 2010,<br></br>với mong muốn
             mang đến những sản phẩm thời trang youthful style<br></br> chất
@@ -52,7 +52,7 @@ export default function Navbar() {
             hóá thời trang đường phố, tự do hoặc mang hơi hướng retro.
           </p>
           <h3 className="text-4xl text-gray-400 font-sans font:family-popins"> It Today</h3>
-          <p className="text-gray-400 font-sans font:family-popins">
+          <p className="text-gray-400 font-sans font:family-popins text-lg	font-size: 1.125rem">
             {" "}
             Biểu tượng cho tinh thần khiêm nhường nhưng không ngừng sáng tạo.
             <br></br>
@@ -74,7 +74,7 @@ export default function Navbar() {
             priority
           />
         </div>
-        <article className="text-wrap overflow-hidden ... text-center text-gray-400 py-6  text-xl font-sans font:family-popins">
+        <article className="text-wrap overflow-hidden ... text-center text-gray-400 py-6  text-lg	font-size: 1.125rem font-sans font:family-popins">
           <p> Địa chỉ liên hệ:</p>
           <p>
             830 Cách Mạng Tháng 8, Phường 5, Quận Tân Bình, Ho Chi Minh City,
@@ -99,10 +99,10 @@ export default function Navbar() {
             priority
           />
           </a>
-          <p className="text-gray-400 "> Trang phục 1</p>
+          <p className="text-gray-400 font-sans font:family-popins"> Trang phục 1</p>
         </div>
         <div className="flex flex-col items-center">
-        <a href="/">
+        <a href="">
           <Image
             src={picture4}
             alt="picture"
@@ -113,7 +113,7 @@ export default function Navbar() {
             priority
           />
           </a>
-          <p className="text-gray-400"> Trang phục 2</p>
+          <p className="text-gray-400 font-sans font:family-popins"> Trang phục 2</p>
         </div>
         <div className="flex flex-col items-center">
         <a href="/">
@@ -127,10 +127,10 @@ export default function Navbar() {
             priority
           />
           </a>
-          <p className="text-gray-400"> Trang phục 3</p>
+          <p className="text-gray-400 font-sans font:family-popins"> Trang phục 3</p>
         </div>
         <div className="flex flex-col items-center">
-        <a href="/Page1.tsx">
+        <a href="./Page1.tsx">
           <Image
             src={picture6}
             alt="picture"
@@ -141,7 +141,7 @@ export default function Navbar() {
             priority
           />
           </a>
-          <p className="text-gray-400"> Trang phục 4</p>
+          <p className="text-gray-400 font-sans font:family-popins"> Trang phục 4</p>
         </div>
       </div>
 
@@ -159,7 +159,7 @@ export default function Navbar() {
             priority
           />
           </a>
-          <p className="text-gray-400 "> Trang phục 1</p>
+          <p className="text-gray-400 font-sans font:family-popins "> Trang phục 1</p>
         </div>
         <div className="flex flex-col items-center">
         <a href="/">
@@ -173,7 +173,7 @@ export default function Navbar() {
             priority
           />
           </a>
-          <p className="text-gray-400"> Trang phục 2</p>
+          <p className="text-gray-400 font-sans font:family-popins"> Trang phục 2</p>
         </div>
         <div className="flex flex-col items-center">
         <a href="/">
@@ -187,7 +187,7 @@ export default function Navbar() {
             priority
           />
           </a>
-          <p className="text-gray-400"> Trang phục 3</p>
+          <p className="text-gray-400 font-sans font:family-popins"> Trang phục 3</p>
         </div>
         <div className="flex flex-col items-center">
         <a href="/">
@@ -201,7 +201,7 @@ export default function Navbar() {
             priority
           />
           </a>
-          <p className="text-gray-400"> Trang phục 4</p>
+          <p className="text-gray-400 font-sans font:family-popins"> Trang phục 4</p>
         </div>
       </div>
         {/*............................................... */}
@@ -218,7 +218,7 @@ export default function Navbar() {
             priority
           />
           </a>
-          <p className="text-gray-400 "> Trang phục 1</p>
+          <p className="text-gray-400 font-sans font:family-popins"> Trang phục 1</p>
         </div>
         <div className="flex flex-col items-center">
         <a href="/">
@@ -232,7 +232,7 @@ export default function Navbar() {
             priority
           />
           </a>
-          <p className="text-gray-400"> Trang phục 2</p>
+          <p className="text-gray-400 font-sans font:family-popins"> Trang phục 2</p>
         </div>
         <div className="flex flex-col items-center">
         <a href="/">
@@ -246,7 +246,7 @@ export default function Navbar() {
             priority
           />
           </a>
-          <p className="text-gray-400"> Trang phục 3</p>
+          <p className="text-gray-400 font-sans font:family-popins"> Trang phục 3</p>
         </div>
         <div className="flex flex-col items-center">
         <a href="/">
@@ -260,7 +260,7 @@ export default function Navbar() {
             priority
           />
           </a>
-          <p className="text-gray-400"> Trang phục 4</p>
+          <p className="text-gray-400 font-sans font:family-popins"> Trang phục 4</p>
         </div>
       </div>
     </div>
