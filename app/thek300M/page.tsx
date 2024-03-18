@@ -1,14 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
-import k300 from "../public/k300.jpg";
-import picture from  "../public/picture.jpg"
-import picture2 from "../public/picture2.jpg";
-import picture3 from "../public/picture3.jpg";
-import picture4 from "../public/picture4.jpg";
-import picture5 from "../public/picture5.jpg";
-import picture6 from "../public/picture6.jpg";
-export default function Navbar() {
-  return (
+import k300 from "../FileImg/k300.jpg";
+import picture from "../FileImg/bar.svg";
+import art1 from "../FileImg/art1.svg";
+import art2 from "../FileImg/art2.svg";
+import art3 from "../FileImg/art3.svg";
+import art4 from "../FileImg/art4.svg";
+import artpg1 from "../FileImg/artpg1.svg";
+export default function TheK300M() {
+  
+  return(
     <div className="bg-black">
       <div className="flex justify-center items-center h-full w-full">
         <div className="relative">
@@ -64,7 +65,7 @@ export default function Navbar() {
         </article>
         <div className="flex justify-center items-center py-8">
           <Image
-            src={picture2}
+            src={artpg1}
             alt="picture"
             width={600}
             height={300}
@@ -87,9 +88,9 @@ export default function Navbar() {
       </div>
       <div className="flex gap-6 ml-24 mr-24 text-2xl py-8">
         <div className="flex flex-col items-center">
-            <Link href="./Page1">
+            <Link href={"/thek300"}>
           <Image
-            src={picture3}
+            src={art1}
          
             alt="picture"
             width={500}
@@ -104,7 +105,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center">
         <a href="/">
           <Image
-            src={picture4}
+            src={art2}
             alt="picture"
             width={500}
             height={300}
@@ -118,7 +119,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center">
         <a href="/">
           <Image
-            src={picture5}
+            src={art3}
             alt="picture"
             width={500}
             height={300}
@@ -132,7 +133,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center">
         <a href="">
           <Image
-            src={picture6}
+            src={art4}
             alt="picture"
             width={500}
             height={300}
@@ -150,7 +151,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center">
             <a href={"/"}>
           <Image
-            src={picture3}
+            src={art1}
             alt="picture"
             width={500}
             height={300}
@@ -164,7 +165,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center">
         <a href="/">
           <Image
-            src={picture4}
+            src={art2}
             alt="picture"
             width={500}
             height={300}
@@ -178,7 +179,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center">
         <a href="/">
           <Image
-            src={picture5}
+            src={art3}
             alt="picture"
             width={500}
             height={300}
@@ -192,7 +193,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center">
         <a href="/">
           <Image
-            src={picture6}
+            src={art4}
             alt="picture"
             width={500}
             height={300}
@@ -209,7 +210,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center">
         <a href="/">
           <Image
-            src={picture3}
+            src={art1}
             alt="picture"
             width={500}
             height={300}
@@ -223,7 +224,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center">
         <a href="/">
           <Image
-            src={picture4}
+            src={art2}
             alt="picture"
             width={500}
             height={300}
@@ -237,7 +238,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center">
         <a href="/">
           <Image
-            src={picture5}
+            src={art3}
             alt="picture"
             width={500}
             height={300}
@@ -251,7 +252,7 @@ export default function Navbar() {
         <div className="flex flex-col items-center">
         <a href="/">
           <Image
-            src={picture6}
+            src={art4}
             alt="picture"
             width={500}
             height={300}
